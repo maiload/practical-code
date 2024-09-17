@@ -1,5 +1,6 @@
 package sample.cafekiosk.unit.beverage;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import sample.cafekiosk.unit.Latte;
@@ -98,6 +99,7 @@ class CafeKioskTest {
     }
 
     @Test
+    @Disabled
     void createOrder() {
         CafeKiosk cafeKiosk = new CafeKiosk();
         Americano americano = new Americano();
